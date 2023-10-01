@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CV [
+    <!ELEMENT CV (InformationsPersonnelles, Éducation, Compétences, Expérience, Passion)>
+    
+    <!ELEMENT InformationsPersonnelles (Prénom, Nom, DateDeNaissance)>
+    <!ELEMENT Prénom (#PCDATA)>
+    <!ELEMENT Nom (#PCDATA)>
+    <!ELEMENT DateDeNaissance (#PCDATA)>
+    
+    <!ELEMENT Éducation (Diplôme, Année)>
+    <!ELEMENT Diplôme (#PCDATA)>
+    <!ELEMENT Année (#PCDATA)>
+    
+    <!ELEMENT Compétences (LangagesDeProgrammation)>
+    <!ELEMENT LangagesDeProgrammation (Langage+)>
+    <!ELEMENT Langage (#PCDATA)>
+    
+    <!ELEMENT Expérience (Projet+)>
+    <!ELEMENT Projet (Titre, Durée, Description)>
+    <!ELEMENT Titre (#PCDATA)>
+    <!ELEMENT Durée (#PCDATA)>
+    <!ELEMENT Description (#PCDATA)>
+    
+    <!ELEMENT Passion (Intérêt+)>
+    <!ELEMENT Intérêt (#PCDATA)>
+]>

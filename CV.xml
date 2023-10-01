@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "DTD_CV.dtd">
+<CV>
+    <Informations_Personnelles>
+        <Prénom>Montassar</Prénom>
+        <Nom>Ben Zammel</Nom>
+        <Date_De_Naissance>10 août 2000</Date_De_Naissance>
+    </Informations_Personnelles>
+    <Éducation>
+        <Diplôme>Cycle Ingénieur en Développement Web et Mobile</Diplôme>
+        <Année>2ème Année</Année>
+    </Éducation>
+    <Compétences>
+        <Langages_de_programmation>
+            <Langage>HTML</Langage>
+            <Langage>CSS</Langage>
+            <Langage>JavaScript</Langage>
+            <Langage>PHP</Langage>
+            <Langage>JAVA</Langage>
+            <Langage>SpringBoot</Langage>
+        </Langages_de_programmation>
+    </Compétences>
+    <Expérience>
+        <Projet>
+            <Titre>Stage en Tunisie Telecom - Projet Fin d'étude</Titre>
+            <Durée>4 mois (fév 2022 - mai 2022)</Durée>
+            <Description>Conception et développement d'une plateforme de suivi des appels téléphoniques</Description>
+        </Projet>
+        <Projet>
+            <Titre>Projet de fin d'année</Titre>
+            <Durée>2 mois (avril 2021 - mai 2021)</Durée>
+            <Description>Conception et développement d'un site web de prêt-à-porter</Description>
+        </Projet>
+    </Expérience>
+    <Passion>
+        <Intérêt>Gaming</Intérêt>
+        <Intérêt>Cinéma</Intérêt>
+        <Intérêt>Séries</Intérêt>
+    </Passion>
+</CV>
